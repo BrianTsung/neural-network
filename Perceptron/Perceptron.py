@@ -229,7 +229,7 @@ label_epoch.place(x=30, y=90)
 input_epoch = tk.IntVar()
 input_epoch.set(1)
 entry_epoch = tk.Entry(window, width=20, textvariable=input_epoch)
-entry_epoch .place(x=120, y=90)
+entry_epoch.place(x=120, y=90)
 
 # display weight
 label_weight0 = tk.Label(window, text="weight0", fg='blue')
